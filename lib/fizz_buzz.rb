@@ -4,4 +4,10 @@ def fizz_buzz(number)
   else
     number
   end 
+
+if number % 5 == 0
+  'buzz'
+else
+  number
+end
 end

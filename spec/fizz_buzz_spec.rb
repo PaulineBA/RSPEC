@@ -4,4 +4,9 @@ describe "fizz_buzz" do
         expect(fizz_buzz(3)).to eq 'fizz'
       end
     end
+    it "returns 'buzz' if number is divisible by 5" do
+        expect(fizz_buzz (5)).to eq 'buzz'
+    end
+end
+
     
